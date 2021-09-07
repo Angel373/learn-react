@@ -23,7 +23,7 @@ export const TodoApp = () => {
 
 
     const handleDelete = (todoId) => {
-        console.log(todoId)
+        // console.log(todoId)
         // Crear la action
         const action = {
             type: 'delete',
